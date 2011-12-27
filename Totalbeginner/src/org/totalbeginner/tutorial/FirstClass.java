@@ -12,6 +12,6 @@ public class FirstClass {
 		frame.setSize(800, 600);
 		frame.setVisible(true);
 		//frame.println("fefse");
-	System.out.println ("hello world") ;
+	System.out.println ("hello world, something added:)") ;
 	}	
 }
