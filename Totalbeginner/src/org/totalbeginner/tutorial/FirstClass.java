@@ -13,5 +13,7 @@ public class FirstClass {
 		frame.setVisible(true);
 		//frame.println("fefse");
 	System.out.println ("hello world, something added:)") ;
+	System.out.println ("and one more change, just in case...)") ;
+
 	}	
 }
