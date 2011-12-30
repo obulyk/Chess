@@ -1,6 +1,17 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
+#{if flash.error}
+    <p style="color:#c00">
+        ${flash.error}
+    </p>
+#{/if}
+<h1>Hello${Names ?: ', What is your name?'}!</h1>
+ 
 <form action="@{Application.sayHello()}" method="GET">
     <input type="text" name="myName" /> 
     <input type="submit" value="Say hello!" />
+</form>
+<form action="@{Application.History()}" method="SET">
+     <input type="submit" value="History" />
+    
 </form>
